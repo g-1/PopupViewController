@@ -45,9 +45,7 @@
                    }
                    completion:^(BOOL finished){
                      [self.view removeFromSuperview];
-                     self.contentView.transform = CGAffineTransformIdentity;
                      self.view.alpha = 1.f;
-                     NSLog(@"center=(%4.f, %4.f)", self.contentView.center.x, self.contentView.center.y);
                    }];
 }
 
