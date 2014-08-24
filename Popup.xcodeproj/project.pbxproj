@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3BBC200219A7A1E10026DED4 /* PopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBC200019A7A1E10026DED4 /* PopupViewController.m */; };
-		3BBC200319A7A1E10026DED4 /* PopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BBC200119A7A1E10026DED4 /* PopupViewController.xib */; };
 		3BC771C119A78F6A00365C05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC771C019A78F6A00365C05 /* Foundation.framework */; };
 		3BC771C319A78F6A00365C05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC771C219A78F6A00365C05 /* CoreGraphics.framework */; };
 		3BC771C519A78F6A00365C05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC771C419A78F6A00365C05 /* UIKit.framework */; };
@@ -18,27 +17,11 @@
 		3BC771D419A78F6A00365C05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC771D219A78F6A00365C05 /* Main.storyboard */; };
 		3BC771D719A78F6A00365C05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC771D619A78F6A00365C05 /* ViewController.m */; };
 		3BC771D919A78F6A00365C05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC771D819A78F6A00365C05 /* Images.xcassets */; };
-		3BC771E019A78F6B00365C05 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC771DF19A78F6B00365C05 /* XCTest.framework */; };
-		3BC771E119A78F6B00365C05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC771C019A78F6A00365C05 /* Foundation.framework */; };
-		3BC771E219A78F6B00365C05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC771C419A78F6A00365C05 /* UIKit.framework */; };
-		3BC771EA19A78F6B00365C05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BC771E819A78F6B00365C05 /* InfoPlist.strings */; };
-		3BC771EC19A78F6B00365C05 /* PopupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC771EB19A78F6B00365C05 /* PopupTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3BC771E319A78F6B00365C05 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3BC771B519A78F6A00365C05 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3BC771BC19A78F6A00365C05;
-			remoteInfo = Popup;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3BBC1FFF19A7A1E10026DED4 /* PopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupViewController.h; sourceTree = "<group>"; };
 		3BBC200019A7A1E10026DED4 /* PopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupViewController.m; sourceTree = "<group>"; };
-		3BBC200119A7A1E10026DED4 /* PopupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopupViewController.xib; sourceTree = "<group>"; };
 		3BC771BD19A78F6A00365C05 /* Popup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Popup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC771C019A78F6A00365C05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3BC771C219A78F6A00365C05 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,11 +36,7 @@
 		3BC771D519A78F6A00365C05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3BC771D619A78F6A00365C05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3BC771D819A78F6A00365C05 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3BC771DE19A78F6B00365C05 /* PopupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC771DF19A78F6B00365C05 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3BC771E719A78F6B00365C05 /* PopupTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PopupTests-Info.plist"; sourceTree = "<group>"; };
-		3BC771E919A78F6B00365C05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3BC771EB19A78F6B00365C05 /* PopupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopupTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,16 +50,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3BC771DB19A78F6B00365C05 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3BC771E019A78F6B00365C05 /* XCTest.framework in Frameworks */,
-				3BC771E219A78F6B00365C05 /* UIKit.framework in Frameworks */,
-				3BC771E119A78F6B00365C05 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -88,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				3BC771C619A78F6A00365C05 /* Popup */,
-				3BC771E519A78F6B00365C05 /* PopupTests */,
 				3BC771BF19A78F6A00365C05 /* Frameworks */,
 				3BC771BE19A78F6A00365C05 /* Products */,
 			);
@@ -98,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				3BC771BD19A78F6A00365C05 /* Popup.app */,
-				3BC771DE19A78F6B00365C05 /* PopupTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,30 +107,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3BC771E519A78F6B00365C05 /* PopupTests */ = {
-			isa = PBXGroup;
-			children = (
-				3BC771EB19A78F6B00365C05 /* PopupTests.m */,
-				3BC771E619A78F6B00365C05 /* Supporting Files */,
-			);
-			path = PopupTests;
-			sourceTree = "<group>";
-		};
-		3BC771E619A78F6B00365C05 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3BC771E719A78F6B00365C05 /* PopupTests-Info.plist */,
-				3BC771E819A78F6B00365C05 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		3BC771F819A7941B00365C05 /* Popup */ = {
 			isa = PBXGroup;
 			children = (
 				3BBC1FFF19A7A1E10026DED4 /* PopupViewController.h */,
 				3BBC200019A7A1E10026DED4 /* PopupViewController.m */,
-				3BBC200119A7A1E10026DED4 /* PopupViewController.xib */,
 			);
 			name = Popup;
 			sourceTree = "<group>";
@@ -188,24 +136,6 @@
 			productReference = 3BC771BD19A78F6A00365C05 /* Popup.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3BC771DD19A78F6B00365C05 /* PopupTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3BC771F219A78F6B00365C05 /* Build configuration list for PBXNativeTarget "PopupTests" */;
-			buildPhases = (
-				3BC771DA19A78F6B00365C05 /* Sources */,
-				3BC771DB19A78F6B00365C05 /* Frameworks */,
-				3BC771DC19A78F6B00365C05 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3BC771E419A78F6B00365C05 /* PBXTargetDependency */,
-			);
-			name = PopupTests;
-			productName = PopupTests;
-			productReference = 3BC771DE19A78F6B00365C05 /* PopupTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -214,11 +144,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Taka;
-				TargetAttributes = {
-					3BC771DD19A78F6B00365C05 = {
-						TestTargetID = 3BC771BC19A78F6A00365C05;
-					};
-				};
 			};
 			buildConfigurationList = 3BC771B819A78F6A00365C05 /* Build configuration list for PBXProject "Popup" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -234,7 +159,6 @@
 			projectRoot = "";
 			targets = (
 				3BC771BC19A78F6A00365C05 /* Popup */,
-				3BC771DD19A78F6B00365C05 /* PopupTests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,16 +170,7 @@
 			files = (
 				3BC771D919A78F6A00365C05 /* Images.xcassets in Resources */,
 				3BC771CB19A78F6A00365C05 /* InfoPlist.strings in Resources */,
-				3BBC200319A7A1E10026DED4 /* PopupViewController.xib in Resources */,
 				3BC771D419A78F6A00365C05 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3BC771DC19A78F6B00365C05 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3BC771EA19A78F6B00365C05 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,23 +188,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3BC771DA19A78F6B00365C05 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3BC771EC19A78F6B00365C05 /* PopupTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3BC771E419A78F6B00365C05 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3BC771BC19A78F6A00365C05 /* Popup */;
-			targetProxy = 3BC771E319A78F6B00365C05 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3BC771C919A78F6A00365C05 /* InfoPlist.strings */ = {
@@ -306,14 +205,6 @@
 				3BC771D319A78F6A00365C05 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3BC771E819A78F6B00365C05 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3BC771E919A78F6B00365C05 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -415,46 +306,6 @@
 			};
 			name = Release;
 		};
-		3BC771F319A78F6B00365C05 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Popup.app/Popup";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Popup/Popup-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "PopupTests/PopupTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		3BC771F419A78F6B00365C05 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Popup.app/Popup";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Popup/Popup-Prefix.pch";
-				INFOPLIST_FILE = "PopupTests/PopupTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -472,15 +323,6 @@
 			buildConfigurations = (
 				3BC771F019A78F6B00365C05 /* Debug */,
 				3BC771F119A78F6B00365C05 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3BC771F219A78F6B00365C05 /* Build configuration list for PBXNativeTarget "PopupTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3BC771F319A78F6B00365C05 /* Debug */,
-				3BC771F419A78F6B00365C05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
